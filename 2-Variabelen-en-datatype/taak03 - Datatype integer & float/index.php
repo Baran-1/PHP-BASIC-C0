@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
-<body>
+    <body>
 
 <?php
-$leeftijd = 55;
+
+$leeftijd = 16;
 echo $leeftijd;
-$melkprijs = 0.98;
-echo $melkprijs;
+$MelkPrijs = 0.98;
+echo $MelkPrijs;
+
+
+
+
+
 ?>
 
+
+
+
+
+
 </body>
-</html> 
+</html>

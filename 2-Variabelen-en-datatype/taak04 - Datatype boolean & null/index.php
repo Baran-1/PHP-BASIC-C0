@@ -3,11 +3,20 @@
 <body>
 
 <?php
-$test = true;
-echo "de waarde van test is: " . $test . "<br>";
-$test = null;
-echo "de waarde van test is: " . $test . "<br>";
+
+$test1 = true;
+echo "de waarde van test:  " . $test1 . "<br>";
+
+$test2 = null;
+echo "de waarde van test: . " . $test2 . "<br>";
+
+
+
 ?>
 
+
+
+
+
 </body>
-</html> 
+ </html>
