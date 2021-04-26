@@ -11,9 +11,11 @@ function telAlleWoorden() {
 
  $lengteZin = 42;
 
- echo $lengteZin;
+ return $lengteZin;
 }
 telAlleWoorden()
+
+
 
 
 
