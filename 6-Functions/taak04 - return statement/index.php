@@ -4,16 +4,22 @@
 
 <?php
 
+
 function geefTienProcent() {
 
-    $koopPrijs = 75;
-    $korting = 10;
+  $koopPrijs = 75;
 
-    $koopPrijs = $koopPrijs - ($koopPrijs * ($korting/100));
+  $korting = 10;
 
-    return $koopPrijs;
+  return $koopPrijs - (($korting/100) * $koopPrijs);
 
 }
+geefTienProcent();
+
+
+
+
+
 
 
 
@@ -22,5 +28,13 @@ function geefTienProcent() {
 ?>
 
 
+
+
+
+
+
 </body>
 </html>
+
+
+
